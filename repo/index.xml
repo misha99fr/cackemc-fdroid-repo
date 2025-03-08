@@ -1,1 +1,42 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<fdroid>
+    <repo name="Мой репозиторий F-Droid" url="https://ваш-репозиторий.github.io/repo" version="1" ts="1678886400000">
+        <application id="com.example.myapp" name="Мое приложение">
+            <version code="1" name="1.0">
+                <apk name="com.example.myapp_1.apk" size="1234567" sha256="ваш-sha256-хеш" added="1678886400000">
+                    <permissions>
+                        <permission name="android.permission.INTERNET"/>
+                        <permission name="android.permission.ACCESS_NETWORK_STATE"/>
+                    </permissions>
+                </apk>
+            </version>
+            <summary>Краткое описание моего приложения.</summary>
+            <desc>Подробное описание моего приложения.</desc>
+            <icon>com.example.myapp.png</icon>
+            <categories>
+                <category>Интернет</category>
+                <category>Инструменты</category>
+            </categories>
+            <license>Apache-2.0</license>
+            <source>https://github.com/ваш-репозиторий/исходный-код</source>
+            <web>https://ваш-сайт.com</web>
+        </application>
+        <application id="com.example.myapp2" name="Мое второе приложение">
+            <version code="2" name="2.0">
+                <apk name="com.example.myapp2_2.apk" size="2345678" sha256="ваш-sha256-хеш-второго-приложения" added="1678886400000">
+                    <permissions>
+                        <permission name="android.permission.CAMERA"/>
+                    </permissions>
+                </apk>
+            </version>
+            <summary>Краткое описание моего второго приложения.</summary>
+            <desc>Подробное описание моего второго приложения.</desc>
+            <icon>com.example.myapp2.png</icon>
+            <categories>
+                <category>Мультимедиа</category>
+            </categories>
+            <license>GPL-3.0</license>
+            <source>https://github.com/ваш-репозиторий/исходный-код-второго-приложения</source>
+        </application>
+    </repo>
+</fdroid>
